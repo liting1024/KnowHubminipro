@@ -1,2 +1,11 @@
 <!--miniprogram/pages/home.wxml-->
-<text>miniprogram/pages/home.wxml</text>
+<van-search
+  value="{{ value }}"
+  shape="round"
+  background="#03458f"
+  placeholder="请输入搜索关键词"
+/>
+<view>
+  <van-image width="100" height="100" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+  <text>title</text>
+</view>

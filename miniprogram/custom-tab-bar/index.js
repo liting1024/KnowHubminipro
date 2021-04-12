@@ -15,7 +15,7 @@ Component({
     {
       text:"个人主页",
       icon:"manager-o",
-      url:"/pages/manage/manage"
+      url:"/pages/manager/manager"
     }
   ]
   },
