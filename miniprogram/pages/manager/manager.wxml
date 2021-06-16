@@ -1,0 +1,14 @@
+<!--miniprogram/pages/manager.wxml-->
+<view>
+  <van-skeleton title avatar row="3" loading="{{ loading }}">
+  <view>
+    <van-image
+    round
+    width="10rem"
+    height="10rem"
+    src="https://img.yzcdn.cn/vant/cat.jpeg"
+    />
+    <text>name</text>
+  </view>
+  </van-skeleton>
+</view>
